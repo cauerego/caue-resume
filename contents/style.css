@@ -60,6 +60,7 @@ sup {font-size: 70%;}
 .page {
 	width: 20cm;
 	background: #FAFAFA;
+	background-image: url("ant.png");
 	padding: 0.5cm;
 }
 
