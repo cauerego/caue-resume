@@ -197,6 +197,9 @@ sup {font-size: 70%;}
 }
 
 .picture {
+	position: absolute;
+	top: 1em;
+	left: 1em;
+	height: 80px;
 	padding-right: 1em;
-	display: none;
 }
