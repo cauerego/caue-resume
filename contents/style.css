@@ -186,6 +186,10 @@ sup {font-size: 70%;}
 	display: inline;
 }
 
+.hide {
+	display: none !important;
+}
+
 @media_print {
 	body
 	, .page {
