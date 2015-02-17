@@ -106,10 +106,8 @@ sup {font-size: 70%;}
 	text-align: center;
 }
 .last ul li {
-	padding-left: 1em;
-	padding-right: 1em;
-	border-left: 1px black solid;
-	border-right: 1px black solid;
+	padding-left: 5em;
+	padding-right: 5em;
 	display: inline;
 }
 		
@@ -175,7 +173,8 @@ sup {font-size: 70%;}
 }
 
 #info {
-	display: none;
+	padding-top: 2em;
+	display: block;
 }
 
 .detail {
