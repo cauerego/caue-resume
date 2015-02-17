@@ -152,6 +152,7 @@ sup {font-size: 70%;}
 #experience .title {
 	display: inline;
 	font-weight: bold;
+	color: darkgreen;
 }
 /*		#experience .description {
 	padding-right: 10em;
