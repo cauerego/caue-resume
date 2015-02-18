@@ -4,8 +4,17 @@
 }
 
 body {
+	background: white;
 	text-align: center;
 }
+
+.page {
+	width: 20cm;
+	background: #FAFAFA;
+	background-image: url("ant.png");
+	padding: 0.5cm;
+}
+
 ul {
 	padding: 0;
 	list-style: none;
@@ -55,13 +64,6 @@ sup {font-size: 70%;}
 	color: #6D6D6D;
 	border-left: 3px solid #EA0000;
 	border-right: 3px solid #EA0000;
-}
-
-.page {
-	width: 20cm;
-	background: #FAFAFA;
-	background-image: url("ant.png");
-	padding: 0.5cm;
 }
 
 .block
