@@ -1,3 +1,19 @@
+html * {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+
 * {
 	font-family: Lato, Helvetica, Arial, sans-serif;
 	color: black;
@@ -9,10 +25,34 @@ body {
 }
 
 .page {
+	position: relative;
 	width: 20cm;
-	background: #FAFAFA;
-	background-image: url("ant.png");
+	height: 28cm;
+	background: #CACACA;
 	padding: 0.5cm;
+}
+.page::before {
+	/* meant to centralize the ant */
+	content: '';
+	background: url('ant.png') center;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.timeline {
+	position: relative;
+}
+.timeline::before {
+	/* this is the vertical timeline */
+/*	content: '';
+	position: absolute;
+	top: 1em;
+	left: 50%;
+	height: 84%;
+	width: 0.1cm;
+	background: black;*/
 }
 
 ul {
@@ -27,10 +67,12 @@ hr {
 	border: 1px solid black;
 }
 a {
-	color: black;
+	color: darkblue;
+	text-decoration: none;
+	font-style: italic;
 }
 a:hover {
-	text-decoration: none;
+	text-decoration: underline;
 }
 sub {font-size: 70%;}
 sup {font-size: 70%;}
