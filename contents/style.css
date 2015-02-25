@@ -31,6 +31,9 @@ body {
 	background: #CACACA;
 	padding: 0.5cm;
 }
+.page > div {
+	position: relative;
+}
 .page::before {
 	/* meant to centralize the ant */
 	content: '';
@@ -245,8 +248,8 @@ sup {font-size: 70%;}
 
 .picture {
 	position: absolute;
-	top: 1em;
-	left: 1em;
+	top: 0;
+	left: 0;
 	height: 80px;
 	padding-right: 1em;
 }
